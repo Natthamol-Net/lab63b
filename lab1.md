@@ -16,5 +16,5 @@
 
 ## วิธีการทำการทดลอง
 1. เขียนโปรแกรมลงใน Microcontroller โดยต่อ Microcontroller เข้าทาง Serial port
-Format: ![รูป 1](C:\DATA ( D )\Thammasat\ปี 2\LAB202\Lab git\Lab 1\1-3.JPG)
+Format: ![รูป 1](https://drive.google.com/drive/folders/14WlCjgEcnXR6VSZ2YVdkXzYOtCj8TFPV)
 2. 
