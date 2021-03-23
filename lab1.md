@@ -6,8 +6,7 @@
 
 ## อุปกรณ์ที่ใช้
 1. Microcontroller (ESP01)
-2. Serial port
-3. อุปกรณ์เชื่อมต่อ USB (USB to Serial)
+2. อุปกรณ์เชื่อมต่อ USB (USB to Serial)
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 01 run example 1 : https://youtu.be/NLIUsWLEpmg
@@ -15,7 +14,7 @@
 3. ศึกษาใน https://platformio.org/ ว่าตัว Microcontroller สามารถใช้ได้หลากหลาย และมีวิธีการเขียน ภาษาที่ใช้เขียนโปรแกรมที่แตกต่างกัน
 
 ## วิธีการทำการทดลอง
-1. ต่อ Microcontroller เข้าทาง Serial port
+1. ต่อ Microcontroller เข้ากับ USB to Serial
 
 ![รูป 1](https://user-images.githubusercontent.com/80879886/112181282-dda69c00-8c2e-11eb-8f3f-1da73447626e.JPG)
 
