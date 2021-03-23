@@ -44,6 +44,7 @@ void loop()
 	Serial.printf("PATTANI :%d\n",cnt);
 	delay(1000);
 }
+```
 
 โปรแกรมที่ 1 จะแสดงข้อมูลแบ่งเป็น 2 ส่วน คือ 
 - ส่วน set up จะ set Serial port ที่ความเร็ว 115200
