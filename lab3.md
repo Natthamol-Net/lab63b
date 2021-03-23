@@ -59,7 +59,7 @@ void loop()
 - ส่วน set up โปรแกรมจะ set ให้ Port 0 เป็น Port Output 
 - ส่วน loop โปรแกรมจะสั่งให้วนลูป ทุกครึ่งวินาที และนับ cnt++ (นับ count) ไปเรื่อยๆ เมื่อ count เป็นเลขคี่ให้ ON แต่ถ้า count เป็นเลขคู่ให้ OFF 
 
-4. ทำการ upload โปรแกรม 02_Scan-Wifi เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
+4. ทำการ upload โปรแกรม 03_Output-Port เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
 ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
 ![รูป 2](https://user-images.githubusercontent.com/80879886/112192949-02544100-8c3a-11eb-9bff-e4e8ba1b2ede.JPG)
@@ -71,16 +71,16 @@ void loop()
 
 ![รูป 4](https://user-images.githubusercontent.com/80879886/112192956-03856e00-8c3a-11eb-9a3f-7273d08b3249.JPG)
 
-8.ซึ่งจะสังเกตุได้จากการส่องสว่างของหลอดไฟ LED
+6.ซึ่งจะสังเกตุได้จากการส่องสว่างของหลอดไฟ LED
 
 ![รูป](https://user-images.githubusercontent.com/80879886/112196638-cf13b100-8c3d-11eb-9f2a-0daf8c8bef6c.JPG) ![รูป](https://user-images.githubusercontent.com/80879886/112196647-cfac4780-8c3d-11eb-930e-c27a0d276acb.JPG)
 
-6. นำตัว Microcontroller ที่เขียนโปรแกรมไว้แล้วถอดออกจาก Adapter และนำตัว Microcontroller มาเสียบเข้ากับตัว Relay 
+7. นำตัว Microcontroller ที่เขียนโปรแกรมไว้แล้วถอดออกจาก Adapter และนำตัว Microcontroller มาเสียบเข้ากับตัว Relay 
  และนำขั้วชาร์จ หรือ Power Bank ต่อเข้ากับ Relay เพื่อจ่ายไฟเข้า Relay และ Microcontroller
  
 ![รูป](https://user-images.githubusercontent.com/80879886/112192968-05e7c800-8c3a-11eb-8d1b-ab03e1cef970.JPG) 
 
-7. Microcontroller จะควบคุม Relay ให้เปิด - ปิด
+8. Microcontroller จะควบคุม Relay ให้เปิด - ปิด
 
 ## การบันทึกผลการทดลอง
 1. เมื่ออัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว พิมพ์ pio device monitor เพื่อแสดงผลโปรแกรม จะเห็นว่าทุกๆ 500 ms. จะแสดงผล ON สลับกับ OFF และเมื่อดูที่หลอด LED จะส่องสว่างที่ Port 0 ในตอนที่แสดงผลเป็น ON และจะดับที่ Port 1 ในตอนที่แสดงผลเป็น OFF
