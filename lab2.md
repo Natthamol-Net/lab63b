@@ -5,15 +5,14 @@
 
 ## อุปกรณ์ที่ใช้
 1.	Microcontroller (ESP01) ชนิดที่มี Wifi อยู่ในตัว
-2.	Serial port
-3.	อุปกรณ์เชื่อมต่อ USB (USB to Serial)
+2.	อุปกรณ์เชื่อมต่อ USB (USB to Serial)
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 02 run example 2 : https://youtu.be/yBjab0UNuB8
 2. src code ของตัวอย่างโปรแกรม 01_Serial-Monitor : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/src/main.cpp
 
 ## วิธีการทำการทดลอง
-1. ต่อตัว  Microcontroller เข้ากับ  Serial port
+1. ต่อตัว  Microcontroller เข้ากับ USB to Serial
 
 2. ดูตัวอย่างโปรแกรมที่โฟลเดอร์ pattani
 - พิมพ์ **cd pattani** เพื่อเข้าไปในโฟลเดอร์ 
