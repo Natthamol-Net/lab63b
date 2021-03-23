@@ -6,9 +6,9 @@
 
 ## อุปกรณ์ที่ใช้
 1.	Microcontroller (ESP01) 
-2.	Serial port
-3.	อุปกรณ์เชื่อมต่อ USB (USB to Serial)
-4.	Adapter 
+2.	อุปกรณ์เชื่อมต่อ USB (USB to Serial)
+3.	Adapter ที่ต่อด้วยสาย Port 0 (สายสีขาว) กับสาย Port 1 (สายสีเหลือง)
+4.	หลอดไฟ LED
 5.	Relay
 6.	ขั้วชาร์จ หรือ Power Bank
 
@@ -61,9 +61,17 @@ void loop()
 4. ทำการ upload โปรแกรม 02_Scan-Wifi เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
 ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
-![รูป 2](https://user-images.githubusercontent.com/80879886/112192949-02544100-8c3a-11eb-9bff-e4e8ba1b2ede.JPG)
-
-![รูป 3](https://user-images.githubusercontent.com/80879886/112192953-02ecd780-8c3a-11eb-8cdd-6b583c8b505e.JPG)
+![รูป 2](https://user-images.githubusercontent.com/80879886/112192949-02544100-8c3a-11eb-9bff-e4e8ba1b2ede.JPG) ![รูป 3](https://user-images.githubusercontent.com/80879886/112192953-02ecd780-8c3a-11eb-8cdd-6b583c8b505e.JPG)
 
 
-6. 
+5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** จะแสดงผลได้ดังรูป
+
+![รูป 4](https://user-images.githubusercontent.com/80879886/112192956-03856e00-8c3a-11eb-9a3f-7273d08b3249.JPG)
+
+6. นำตัว Microcontroller ที่เขียนโปรแกรมไว้แล้วถอดออกจาก Adapter และนำตัว Microcontroller มาเสียบเข้ากับตัว Relay 
+ และนำขั้วชาร์จ หรือ Power Bank ต่อเข้ากับ Relay เพื่อจ่ายไฟเข้า Relay และ Microcontroller
+ 
+![รูป](https://user-images.githubusercontent.com/80879886/112192968-05e7c800-8c3a-11eb-8d1b-ab03e1cef970.JPG) ![รูป](https://user-images.githubusercontent.com/80879886/112192971-06805e80-8c3a-11eb-86d3-e086031a3e75.JPG)
+
+
+
