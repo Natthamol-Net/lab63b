@@ -16,5 +16,11 @@
 
 ## วิธีการทำการทดลอง
 1. เขียนโปรแกรมลงใน Microcontroller โดยต่อ Microcontroller เข้าทาง Serial port
-Format: ![รูป 1](https://drive.google.com/drive/folders/14WlCjgEcnXR6VSZ2YVdkXzYOtCj8TFPV)
-2. 
+![รูป 1](https://user-images.githubusercontent.com/80879886/112181282-dda69c00-8c2e-11eb-8f3f-1da73447626e.JPG)
+
+2. ดูตัวอย่างโปรแกรมที่โฟลเดอร์ pattani
+-	พิมพ์ cd pattani เพื่อเข้าไปในโฟลเดอร์ 
+-	พิมพ์ Is แสดงโปรแกรมตัวอย่าง ในโฟลเดอร์นี้มีโปรแกรมอยู่ 9 โปรแกรม
+
+
+3. 
