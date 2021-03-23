@@ -71,7 +71,7 @@ void loop()
 ![รูป 6](https://user-images.githubusercontent.com/80879886/112185010-6410ad00-8c32-11eb-8030-456cc853de8c.JPG)
 
 ## การบันทึกผลการทดลอง
-เมื่อทำการอัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว จะแสดงผลลัพธ์ด้วยการพิมพ์ **pio device monitor** 
+เมื่อทำการอัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว จะแสดงผลลัพธ์ด้วยการพิมพ์คำสั่ง **pio device monitor** 
 จะเห็นว่าตัวแปร count ที่เริ่มตั้งแต่ 0 จะถูก increment และถูกแสดงผลทุกๆ 1 วินาที และเมื่อลองกดปุ่มรีเซ็ต (สีแดง) Microcontroller จะถูกรีเซ็ตและเริ่มนับ 1 ใหม่
 
 ![รูป 7](https://user-images.githubusercontent.com/80879886/112186517-c9b16900-8c33-11eb-9064-003e2b1fc8b0.JPG)
