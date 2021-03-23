@@ -15,12 +15,13 @@
 3. ศึกษาใน https://platformio.org/ ว่าตัว Microcontroller สามารถใช้ได้หลากหลาย และมีวิธีการเขียน ภาษาที่ใช้เขียนโปรแกรมที่แตกต่างกัน
 
 ## วิธีการทำการทดลอง
-1. เขียนโปรแกรมลงใน Microcontroller โดยต่อ Microcontroller เข้าทาง Serial port
+1. ต่อ Microcontroller เข้าทาง Serial port
 ![รูป 1](https://user-images.githubusercontent.com/80879886/112181282-dda69c00-8c2e-11eb-8f3f-1da73447626e.JPG)
 
 2. ดูตัวอย่างโปรแกรมที่โฟลเดอร์ pattani
 -	พิมพ์ cd pattani เพื่อเข้าไปในโฟลเดอร์ 
 -	พิมพ์ Is แสดงโปรแกรมตัวอย่าง ในโฟลเดอร์นี้มีโปรแกรมอยู่ 9 โปรแกรม
+![รูป 2](https://user-images.githubusercontent.com/80879886/112181768-4aba3180-8c2f-11eb-80ea-9dbb0eafad7b.jpg)
 
 
 3. 
