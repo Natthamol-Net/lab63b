@@ -25,5 +25,23 @@
 
 ![รูป 2](https://user-images.githubusercontent.com/80879886/112181768-4aba3180-8c2f-11eb-80ea-9dbb0eafad7b.jpg)
 
+3. เลือกใช้โปรแกรมตัวอย่างที่ 1
+-	พิมพ์ cd 01_Serial-Monitor
+-	พิมพ์ vi src/main.cpp เพื่อดูเนื้อหาในโปรแกรม จะขึ้นข้อมูลดังนี้
+   
+#include <Arduino.h>
 
-3. 
+int cnt = 0;
+
+void setup()
+{
+	Serial.begin(115200);
+}
+
+void loop()
+{
+	cnt++;
+	Serial.printf("PATTANI :%d\n",cnt);
+	delay(1000);
+}
+
