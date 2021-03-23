@@ -28,7 +28,7 @@
 3. เลือกใช้โปรแกรมตัวอย่างที่ 1
 -	พิมพ์ cd 01_Serial-Monitor
 -	พิมพ์ vi src/main.cpp เพื่อดูเนื้อหาในโปรแกรม จะขึ้นข้อมูลดังนี้
-
+```javascript
 #include <Arduino.h>
 
 int cnt = 0;
