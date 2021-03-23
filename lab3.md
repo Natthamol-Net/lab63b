@@ -19,7 +19,7 @@
 4. Relay คืออะไร? : https://bedroomlearning.blogspot.com/2016/10/relay.html
 
 ## วิธีการทำการทดลอง
-1. เสียบตัว Adapter เข้า Serial port แล้วค่อยเสียบตัว Microcontroller บน Adapter
+1. เสียบตัว Adapter เข้ากับ USB to Serial แล้วค่อยเสียบตัว Microcontroller บน Adapter
 
 ![รูป 1](https://user-images.githubusercontent.com/80879886/112192943-01231400-8c3a-11eb-9bed-7735d867c49d.JPG)
 
