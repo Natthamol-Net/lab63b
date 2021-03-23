@@ -14,8 +14,9 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 03 run example 3 : https://youtu.be/CCnN1WJsXQY
-2. src code ของตัวอย่างโปรแกรม 03_Output-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/03_Output-Port/src/main.cpp
-3. Relay คืออะไร? : https://bedroomlearning.blogspot.com/2016/10/relay.html
+2. 03 run relay : https://youtu.be/6JnhaUILGuw
+3. src code ของตัวอย่างโปรแกรม 03_Output-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/03_Output-Port/src/main.cpp
+4. Relay คืออะไร? : https://bedroomlearning.blogspot.com/2016/10/relay.html
 
 ## วิธีการทำการทดลอง
 1. เสียบตัว Adapter เข้า Serial port แล้วค่อยเสียบตัว Microcontroller บน Adapter
