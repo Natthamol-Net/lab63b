@@ -62,23 +62,23 @@ void loop()
 
 5. ทำการ upload โปรแกรม 02_Scan-Wifi เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
 
-![รูป 1](https://user-images.githubusercontent.com/80879886/112187786-fb76ff80-8c34-11eb-856d-1caa35024b92.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112187786-fb76ff80-8c34-11eb-856d-1caa35024b92.JPG)
 
 6. ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด(สีดำ) และ ปุ่มรีเซ็ต(สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
-![รูป 2](https://user-images.githubusercontent.com/80879886/112187791-fc0f9600-8c34-11eb-904c-9d8b30db0ca4.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112187791-fc0f9600-8c34-11eb-904c-9d8b30db0ca4.JPG)
 
-![รูป 3](https://user-images.githubusercontent.com/80879886/112187793-fca82c80-8c34-11eb-9861-5960e05978ce.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112187793-fca82c80-8c34-11eb-9861-5960e05978ce.JPG)
 
 7. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** จะแสดงผลได้ดังรูป
 
-![รูป 4](https://user-images.githubusercontent.com/80879886/112187796-fd40c300-8c34-11eb-8e12-ac99ddfc7e73.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112187796-fd40c300-8c34-11eb-8e12-ac99ddfc7e73.JPG)
 
 ## การบันทึกผลการทดลอง
 เมื่อทำการอัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว จะแสดงผลลัพธ์ด้วยการพิมพ์คำสั่ง **pio device monitor** 
 เพื่อให้ตัว Microcontroller แสกนหา Wifi รอบๆตัว และแสดงผลออกมา ถ้ากดปุ่มรีเซ็ต(สีแดง) ตัว Microcontroller จะเริ่มทำการแสกนหา Wifi ใหม่
 
-![รูป 5](https://user-images.githubusercontent.com/80879886/112190317-76d9b080-8c37-11eb-9806-538a039431c8.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112190317-76d9b080-8c37-11eb-9806-538a039431c8.JPG)
 
 ## อภิปรายผลการทดลอง
 จากการทดลองเขียนโปรแกรมเพื่อค้นหาไวไฟ โดยเลือกโปรแกรม 02_Scan-Wifi มาเขียน ซึ่งเป็นโปรแกรมค้นหาไวไฟรอบๆตัว ผลลัพธ์ที่แสดงออกมาจะแสดงจำนวนและชื่อไวไฟ ตามโปรแกรมที่เขียนลงไป
