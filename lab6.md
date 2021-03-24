@@ -68,7 +68,8 @@ void loop(void){
 4. ทำการ upload โปรแกรม 06_Wifi-AP-Web-Server เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
 ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
-![รูป](https://user-images.githubusercontent.com/80879886/112267109-8e508200-8ca7-11eb-8b51-4b969c28a266.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112267794-9230d400-8ca8-11eb-8c69-3118c859e3ba.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112267109-8e508200-8ca7-11eb-8b51-4b969c28a266.jpg) 
+![รูป](https://user-images.githubusercontent.com/80879886/112267794-9230d400-8ca8-11eb-8c69-3118c859e3ba.JPG)
 
 5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** จะแสดงผลได้ดังรูป
 
@@ -79,7 +80,7 @@ void loop(void){
 ![รูป](https://user-images.githubusercontent.com/80879886/112267116-901a4580-8ca7-11eb-9a8f-b997b29e38b1.jpg)
 
 ## การบันทึกผลการทดลอง
-เมื่ออัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว พิมพ์คำสั่ง pio device monitor เพื่อแสดงผลโปรแกรม จะขึ้นว่า HTTP server started และลองใช้โทรศัพท์มือถือค้นหา Wifi ที่สร้าง จะพบกับไวไฟที่ได้สร้างขึ้นมาจากการเขียนโปรแกรม
+เมื่ออัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว พิมพ์คำสั่ง **pio device monitor** เพื่อแสดงผลโปรแกรม จะขึ้นว่า HTTP server started และลองใช้โทรศัพท์มือถือค้นหา Wifi ที่สร้าง จะพบกับไวไฟที่ได้สร้างขึ้นมาจากการเขียนโปรแกรม
 
 ## อภิปรายผลการทดลอง
 จากการทดลองเขียนโปรแกรมสร้างไวไฟแอคเซสพอยต์ (Wifi AP) โดยเลือกโปรแกรม 06_Wifi-AP-Web-Server มาเขียน ผลลัพธ์ที่ได้ เราสามารถสร้างไวไฟแอคเซสพอยต์ (Wifi AP) ขึ้นมาเพื่อให้อุปกร์อื่นๆสามารถ connect กับไวไฟได้
