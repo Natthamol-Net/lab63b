@@ -69,6 +69,7 @@ void loop(void){
 ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
 ![รูป](https://user-images.githubusercontent.com/80879886/112267109-8e508200-8ca7-11eb-8b51-4b969c28a266.jpg) 
+
 ![รูป](https://user-images.githubusercontent.com/80879886/112267794-9230d400-8ca8-11eb-8c69-3118c859e3ba.JPG)
 
 5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** จะแสดงผลได้ดังรูป
