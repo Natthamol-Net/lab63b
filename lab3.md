@@ -22,7 +22,7 @@
 ## วิธีการทำการทดลอง
 1. เสียบตัว Adapter เข้ากับ USB to Serial แล้วค่อยเสียบตัว Microcontroller บน Adapter
 
-![รูป 1](https://user-images.githubusercontent.com/80879886/112192943-01231400-8c3a-11eb-9bed-7735d867c49d.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112192943-01231400-8c3a-11eb-9bed-7735d867c49d.JPG)
 
 2. เข้า command prompt เพื่อดูตัวอย่างโปรแกรมที่โฟลเดอร์ pattani
 - พิมพ์ **cd pattani** เพื่อเข้าไปในโฟลเดอร์ 
@@ -63,18 +63,20 @@ void loop()
 4. ทำการ upload โปรแกรม 03_Output-Port เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
 ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด(สีดำ) และ ปุ่มรีเซ็ต(สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
-![รูป 2](https://user-images.githubusercontent.com/80879886/112192949-02544100-8c3a-11eb-9bff-e4e8ba1b2ede.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112192949-02544100-8c3a-11eb-9bff-e4e8ba1b2ede.JPG)
 
-![รูป 3](https://user-images.githubusercontent.com/80879886/112192953-02ecd780-8c3a-11eb-8cdd-6b583c8b505e.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112192953-02ecd780-8c3a-11eb-8cdd-6b583c8b505e.JPG)
 
 
 5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** จะแสดงผลได้ดังรูป
 
-![รูป 4](https://user-images.githubusercontent.com/80879886/112192956-03856e00-8c3a-11eb-9a3f-7273d08b3249.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112192956-03856e00-8c3a-11eb-9a3f-7273d08b3249.JPG)
 
 6.ซึ่งจะสังเกตุได้จากการส่องสว่างของหลอดไฟ LED
 
-![รูป](https://user-images.githubusercontent.com/80879886/112196638-cf13b100-8c3d-11eb-9f2a-0daf8c8bef6c.JPG) ![รูป](https://user-images.githubusercontent.com/80879886/112196647-cfac4780-8c3d-11eb-930e-c27a0d276acb.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112196638-cf13b100-8c3d-11eb-9f2a-0daf8c8bef6c.JPG) 
+
+![รูป](https://user-images.githubusercontent.com/80879886/112196647-cfac4780-8c3d-11eb-930e-c27a0d276acb.JPG)
 
 7. นำตัว Microcontroller ที่เขียนโปรแกรมไว้แล้วถอดออกจาก Adapter และนำตัว Microcontroller มาเสียบเข้ากับตัว Relay 
  และนำขั้วชาร์จ หรือ Power Bank ต่อเข้ากับ Relay เพื่อจ่ายไฟเข้า Relay และ Microcontroller
