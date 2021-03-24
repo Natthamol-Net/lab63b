@@ -62,7 +62,8 @@ void loop()
 4. ทำการ upload โปรแกรม 04_Input-Port เข้าไปยัง Microcontroller โดยการพิมพ์คำสั่ง **pio run -t upload** เพื่อรันโปรแกรม
 ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
-![รูป](https://user-images.githubusercontent.com/80879886/112273278-bf34b500-8caf-11eb-8823-5fe4e9af2bea.JPG) ![รูป](https://user-images.githubusercontent.com/80879886/112273281-c065e200-8caf-11eb-899e-bae8385e2f63.JPG)
+![รูป](https://user-images.githubusercontent.com/80879886/112273278-bf34b500-8caf-11eb-8823-5fe4e9af2bea.JPG) 
+![รูป](https://user-images.githubusercontent.com/80879886/112273281-c065e200-8caf-11eb-899e-bae8385e2f63.JPG)
 
 5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** จะแสดงผลได้ดังรูป
 
@@ -70,20 +71,26 @@ void loop()
 
 6. นำสายไฟเส้นสีขาว (Port 0)  ไปจิ้มเข้าช่องเดียวกันกับสายสีดำที่ให้สัญญาณ Input เป็น 0  Output ที่ได้จะแสดงผล read 0 (ไฟติด) ถ้านำไปจิ้มเข้าช่องเดียวกันกับสายสีแดงที่ให้สัญญาณ Input เป็น 1 Output ที่ได้จะแสดงผล read 1 (ไฟไม่ติด)
 
-![รูป](https://user-images.githubusercontent.com/80879886/112277077-f9a05100-8cb3-11eb-8365-ffa5d42b58bb.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112277082-fad17e00-8cb3-11eb-9553-7f3daeffcbb3.jpg)
+![รูป](https://user-images.githubusercontent.com/80879886/112277082-fad17e00-8cb3-11eb-9553-7f3daeffcbb3.jpg)
+![รูป](https://user-images.githubusercontent.com/80879886/112277077-f9a05100-8cb3-11eb-8365-ffa5d42b58bb.jpg)
 
 7.เมื่อกดปุ่มอัพโหลด จะทำให้ Port 0 เป็น read 0 (ไฟติด) ถ้าไม่กดปุ่ม Port 0 จะเป็น read 1 (ไฟไม่ติด)
 
-![รูป](https://user-images.githubusercontent.com/80879886/112277083-fb6a1480-8cb3-11eb-8015-f6f702fa11fd.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112277088-fc02ab00-8cb3-11eb-9aa2-aa2897823b0a.jpg)
+![รูป](https://user-images.githubusercontent.com/80879886/112277083-fb6a1480-8cb3-11eb-8015-f6f702fa11fd.jpg) 
+![รูป](https://user-images.githubusercontent.com/80879886/112277088-fc02ab00-8cb3-11eb-9aa2-aa2897823b0a.jpg)
 
 8. นำขาของตัวต้านทานที่ไม่ได้ต่อกับเซ็นเซอร์แสง มาต่อเข้ากับไฟเลี้ยง 3 V.(ตรงสายสีแดง) และนำขาตัวต้านทานที่ต่ออยู่กับเซ็นเซอร์แสง มาต่อเข้าไปใน Port 0 ส่วนขาที่เหลือต่อเข้ากับเส้นสีดำ(Ground) และนำสายไฟเส้นสีขาว (Input) ไปต่อเข้ากับ Port 0 
 
-![รูป](https://user-images.githubusercontent.com/80879886/112277090-fc02ab00-8cb3-11eb-9e50-c22e261ea124.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112277091-fc9b4180-8cb3-11eb-8114-b75489c9076e.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112277095-fd33d800-8cb3-11eb-9b04-484d2d9bcb8c.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112277099-fdcc6e80-8cb3-11eb-8493-69a7f4fc3fe0.jpg)
+![รูป](https://user-images.githubusercontent.com/80879886/112277090-fc02ab00-8cb3-11eb-9e50-c22e261ea124.jpg) 
+![รูป](https://user-images.githubusercontent.com/80879886/112277091-fc9b4180-8cb3-11eb-8114-b75489c9076e.jpg) 
+![รูป](https://user-images.githubusercontent.com/80879886/112277095-fd33d800-8cb3-11eb-9b04-484d2d9bcb8c.jpg) 
+![รูป](https://user-images.githubusercontent.com/80879886/112277099-fdcc6e80-8cb3-11eb-8493-69a7f4fc3fe0.jpg)
 
 9. เมื่อนำหน้าเซ็นเซอร์แสง โดนแสงสว่าง Output จะแสดงผล read 0 (ไฟติด) แต่ถ้านำนิ้วไปปิดหน้าเซ็นเซอร์แสง ไม่ให้โดนแสง Output จะแสดงผล read 1 (ไฟไม่ติด)
 
 
-![รูป](https://user-images.githubusercontent.com/80879886/112277101-fdcc6e80-8cb3-11eb-8c7f-412281f6b625.jpg) ![รูป](https://user-images.githubusercontent.com/80879886/112277103-fe650500-8cb3-11eb-948a-844130197974.jpg)
+![รูป](https://user-images.githubusercontent.com/80879886/112277101-fdcc6e80-8cb3-11eb-8c7f-412281f6b625.jpg) 
+![รูป](https://user-images.githubusercontent.com/80879886/112277103-fe650500-8cb3-11eb-948a-844130197974.jpg)
 
 
 
