@@ -72,7 +72,7 @@ void loop(void){
 
 4. เสียบตัว Microcontroller เข้ากับ USB to Serial และกดปุ่มอัพโหลด(สีดำ) และ ปุ่มรีเซ็ต(สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
-5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** โดยจะเริ่มแสดงผลด้วยการหา Wif, connect Wifi และบอกตัว IP address 
+5. เมื่อโปรแกรมอัพโหลดเสร็จจะแสดงผลลัพธ์โดย พิมพ์คำสั่ง **pio device monitor** โดยจะเริ่มแสดงผลด้วยการหา Wifi, connect Wifi และบอกตัว IP address 
 
 6. นำ IP address ไปทดสอบในเว็บเบราว์เซอร์
 
