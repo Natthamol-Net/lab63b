@@ -7,6 +7,7 @@
 ## อุปกรณ์ที่ใช้
 1. Microcontroller (ESP01)
 2. อุปกรณ์เชื่อมต่อ USB (USB to Serial)
+3. คอมพิวเตอร์ใช้รันโปรแกรม
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 01 run example 1 : https://youtu.be/NLIUsWLEpmg
@@ -60,7 +61,7 @@ void loop()
 
 ![รูป 4](https://user-images.githubusercontent.com/80879886/112181835-586fb700-8c2f-11eb-98dc-0f203cf14230.jpg)
 
-6. ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
+6. ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด(สีดำ) และ ปุ่มรีเซ็ต(สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
 ![รูป 5](https://user-images.githubusercontent.com/80879886/112181876-61f91f00-8c2f-11eb-9095-ed3736448c66.JPG)
 
@@ -70,7 +71,7 @@ void loop()
 
 ## การบันทึกผลการทดลอง
 เมื่อทำการอัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว จะแสดงผลลัพธ์ด้วยการพิมพ์คำสั่ง **pio device monitor** 
-จะเห็นว่าตัวแปร count ที่เริ่มตั้งแต่ 0 จะถูก increment และถูกแสดงผลทุกๆ 1 วินาที และเมื่อลองกดปุ่มรีเซ็ต (สีแดง) Microcontroller จะถูกรีเซ็ตและเริ่มนับ 1 ใหม่
+จะเห็นว่าตัวแปร count ที่เริ่มตั้งแต่ 0 จะถูก increment และถูกแสดงผลทุกๆ 1 วินาที และเมื่อลองกดปุ่มรีเซ็ต(สีแดง) Microcontroller จะถูกรีเซ็ตและเริ่มนับ 1 ใหม่
 
 ![รูป 7](https://user-images.githubusercontent.com/80879886/112186517-c9b16900-8c33-11eb-9064-003e2b1fc8b0.JPG)
 
