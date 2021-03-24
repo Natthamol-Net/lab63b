@@ -6,13 +6,14 @@
 ## อุปกรณ์ที่ใช้
 1.	Microcontroller (ESP01) ชนิดที่มี Wifi อยู่ในตัว
 2.	อุปกรณ์เชื่อมต่อ USB (USB to Serial)
+3.	คอมพิวเตอร์ใช้รันโปรแกรม
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 02 run example 2 : https://youtu.be/yBjab0UNuB8
-2. src code ของตัวอย่างโปรแกรม 01_Serial-Monitor : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/src/main.cpp
+2. src code ของตัวอย่างโปรแกรม 02_Scan-Wifi : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/src/main.cpp
 
 ## วิธีการทำการทดลอง
-1. ต่อตัว  Microcontroller เข้ากับ USB to Serial
+1. ต่อตัว Microcontroller เข้ากับ USB to Serial
 
 2. เข้า command prompt เพื่อดูตัวอย่างโปรแกรมที่โฟลเดอร์ pattani
 - พิมพ์ **cd pattani** เพื่อเข้าไปในโฟลเดอร์ 
@@ -63,7 +64,7 @@ void loop()
 
 ![รูป 1](https://user-images.githubusercontent.com/80879886/112187786-fb76ff80-8c34-11eb-856d-1caa35024b92.JPG)
 
-6. ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด (สีดำ) และ ปุ่มรีเซ็ต (สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
+6. ขณะที่รันโปรแกรม ให้กดปุ่มอัพโหลด(สีดำ) และ ปุ่มรีเซ็ต(สีแดง) บน Serial port เพื่อให้ Microcontroller รับโปรแกรมใหม่เข้าไป
 
 ![รูป 2](https://user-images.githubusercontent.com/80879886/112187791-fc0f9600-8c34-11eb-904c-9d8b30db0ca4.JPG)
 
@@ -75,7 +76,7 @@ void loop()
 
 ## การบันทึกผลการทดลอง
 เมื่อทำการอัพโหลดโปรแกรมลงบน Microcontroller เสร็จแล้ว จะแสดงผลลัพธ์ด้วยการพิมพ์คำสั่ง **pio device monitor** 
-เพื่อให้ตัว Microcontroller แสกนหา Wifi รอบๆตัว และแสดงผลออกมา ถ้ากดปุ่มรีเซ็ต (สีแดง) ตัว Microcontroller จะเริ่มทำการแสกนหา Wifi ใหม่
+เพื่อให้ตัว Microcontroller แสกนหา Wifi รอบๆตัว และแสดงผลออกมา ถ้ากดปุ่มรีเซ็ต(สีแดง) ตัว Microcontroller จะเริ่มทำการแสกนหา Wifi ใหม่
 
 ![รูป 5](https://user-images.githubusercontent.com/80879886/112190317-76d9b080-8c37-11eb-9806-538a039431c8.JPG)
 
