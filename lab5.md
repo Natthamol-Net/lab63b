@@ -10,7 +10,7 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 05 run wifi : https://youtu.be/VX-QNQcO-b4
-2. src code ของตัวอย่างโปรแกรม 05 run wifi : https://github.com/choompol-boonmee/lab63b/blob/master/examples/05_Wifi-Web-Server/src/main.cpp
+2. src code ของตัวอย่างโปรแกรม 05_Wifi-Web-Server: https://github.com/choompol-boonmee/lab63b/blob/master/examples/05_Wifi-Web-Server/src/main.cpp
 
 ## วิธีการทำการทดลอง
 1. เข้า command prompt เพื่อดูตัวอย่างโปรแกรมที่โฟลเดอร์ pattani
