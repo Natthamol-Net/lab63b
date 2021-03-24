@@ -72,6 +72,8 @@ void loop()
 
 6. นำสายไฟเส้นสีขาว (Port 0)  ไปจิ้มเข้าช่องเดียวกันกับสายสีดำที่ให้สัญญาณ Input เป็น 0  Output ที่ได้จะแสดงผล read 0 (ไฟติด) ถ้านำไปจิ้มเข้าช่องเดียวกันกับสายสีแดงที่ให้สัญญาณ Input เป็น 1 Output ที่ได้จะแสดงผล read 1 (ไฟไม่ติด)
 
+![รูป](https://user-images.githubusercontent.com/80879886/112297457-8228ec80-8cc8-11eb-8cc1-680e57d48eaa.JPG)
+
 ![รูป](https://user-images.githubusercontent.com/80879886/112277082-fad17e00-8cb3-11eb-9553-7f3daeffcbb3.jpg)
 
 ![รูป](https://user-images.githubusercontent.com/80879886/112277077-f9a05100-8cb3-11eb-8365-ffa5d42b58bb.jpg)
