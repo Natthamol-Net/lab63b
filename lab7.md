@@ -78,7 +78,7 @@ void loop()
   
   	for cnt in range(1,2+1);
   	Serial.printf("PATTANI :%d\n",cnt);
-  	int b = cnt ;
+  	int b = cnt;
   	int d = b * 1000;
 	delay(d);
 }
